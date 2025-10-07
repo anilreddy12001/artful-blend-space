@@ -32,13 +32,13 @@ const Navigation = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://linkedin.com/company/anonymous-hope-foundation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://facebook.com/anonymoushopefoundation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+            <a href="https://instagram.com/anonymous_hope_foundation" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
               <Instagram className="w-5 h-5" />
             </a>
           </div>
