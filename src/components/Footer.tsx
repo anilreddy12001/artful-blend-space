@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-muted/50 py-16 border-t border-border">
+    <footer className="bg-[#8B798A] py-16 border-t border-border">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
             <h3 className="text-3xl font-bold mb-4 text-foreground">
               ANONYMOUS<br />HOPE<br />FOUNDATION
             </h3>
-            <div className="space-y-2 text-muted-foreground">
+            <div className="space-y-2 text-[#000000]">
               <p>Contact: +91 9****9****</p>
               <p>Email: anonymoushopefoundation@gmail.com</p>
               <p>Chowk, Lucknow</p>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center justify-center">
-            <div className="w-px h-full bg-border" />
+            <div className="w-2 rounded-xl h-full bg-border" />
           </div>
           
           <div>
@@ -41,16 +41,16 @@ const Footer = () => {
             <div>
               <h4 className="text-xl font-semibold mb-4 text-foreground">Quick Links</h4>
               <div className="space-y-2">
-                <Link to="/about" className="block text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/about" className="block text-[#ffffff] hover:text-[#000000] transition-colors">
                   About Us
                 </Link>
-                <Link to="/what-we-do" className="block text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/what-we-do" className="block text-[#ffffff] hover:text-[#000000] transition-colors">
                   What We Do
                 </Link>
-                <Link to="/be-a-part" className="block text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/be-a-part" className="block text-[#ffffff] hover:text-[#000000] transition-colors">
                   Be A Part
                 </Link>
-                <Link to="/contact" className="block text-muted-foreground hover:text-primary transition-colors">
+                <Link to="/contact" className="block text-[#ffffff] hover:text-[#000000] transition-colors">
                   Contact Us
                 </Link>
               </div>

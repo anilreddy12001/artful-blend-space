@@ -15,7 +15,7 @@ const ImpactSection = () => {
         <div className="relative">
           <div className="absolute inset-0 rounded-2xl overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=2073"
+              src="/src/assets/img3.jpg"
               alt="Volunteer work"
               className="w-full h-full object-cover opacity-50"
             />

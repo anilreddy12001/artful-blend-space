@@ -4,11 +4,11 @@ import { Instagram, Linkedin, Facebook } from "lucide-react";
 const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-sm z-50 border-b border-border">
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-6 py-1">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-              <span className="text-xl font-bold text-primary">AH</span>
+            <div className="w-16 h-16 rounded-full  flex items-center justify-center logoDiv">
+              <span className="text-xl font-bold text-primary"><img src="/src/assets/ahf.png" alt="logo" className=" h-18" /></span>
             </div>
           </div>
           

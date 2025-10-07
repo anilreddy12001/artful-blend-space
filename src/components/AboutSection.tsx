@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=2070"
+              src="/src/assets/img2.jpg"
               alt="Children receiving help"
               className="w-full h-[400px] object-cover"
             />
