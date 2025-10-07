@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoUrl from "@/assets/ahf.png";
 import { Instagram, Linkedin, Facebook } from "lucide-react";
 
 const Navigation = () => {
@@ -8,7 +9,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-16 h-16 rounded-full  flex items-center justify-center logoDiv">
-              <span className="text-xl font-bold text-primary"><img src="/src/assets/ahf.png" alt="logo" className=" h-18" /></span>
+              <span className="text-xl font-bold text-primary"><img src={logoUrl} alt="logo" className=" h-18" /></span>
             </div>
           </div>
           

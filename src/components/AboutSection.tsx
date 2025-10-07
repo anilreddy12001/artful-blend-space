@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import img2Url from "@/assets/img2.jpg";
 
 const AboutSection = () => {
   return (
@@ -7,7 +8,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative rounded-2xl overflow-hidden shadow-xl">
             <img 
-              src="/src/assets/img2.jpg"
+              src={img2Url}
               alt="Children receiving help"
               className="w-full h-[400px] object-cover"
             />

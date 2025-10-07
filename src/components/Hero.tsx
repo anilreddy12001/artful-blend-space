@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
+import heroBgUrl from "@/assets/heroBg.jpg";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/src/assets/heroBg.jpg')",
+          backgroundImage: `url(${heroBgUrl})`,
           boxShadow:"inset 0 0 0 1000px #C5B097aa"
         }}
       >

@@ -1,3 +1,5 @@
+import img3Url from "@/assets/img3.jpg";
+
 const ImpactSection = () => {
   const impacts = [
     { label: "50k+ Meals Served" },
@@ -15,7 +17,7 @@ const ImpactSection = () => {
         <div className="relative">
           <div className="absolute inset-0 rounded-2xl overflow-hidden">
             <img 
-              src="/src/assets/img3.jpg"
+              src={img3Url}
               alt="Volunteer work"
               className="w-full h-full object-cover opacity-50"
             />
