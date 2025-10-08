@@ -1,4 +1,5 @@
-# Welcome to your Lovable project
+# Welcome to AHF project
+The base repo was created using the Lovable app and later modifications are done by checking out this git repo..
 
 ## Project info
 
